@@ -1,0 +1,4 @@
+1. Checked exception: has the red line, Unchecked: doesn't have any signs
+2. RuntimeException is the parent of all the UNCHECKED exceptions
+3. Throws keyword is the fastest way to get rid of the compilation error for CHECKED exceptions
+4. Whoever call the method which has "throws exception" needs to handle it otherwise they will get a compiler error
