@@ -1,0 +1,56 @@
+William Stanley Milligan :
+  (Billy)   PARENT CLASS
+
+INTERFACES:
+  SpeakWithAccent; CriminalTendencies; ControlFreak; Talented;
+
+
+
+Philip: Has accent(Brooklyn), criminal tendencies(the thug);
+April:  Has accent(Boston), criminal tendencies(wants to kill Billi's stepfather);
+Arthur: Has accent(British), control freak;
+Christopher: talented (plays the harmonica);
+Adalana: talented (writes poetry); criminal tendencies(raper);
+
+
+
+
+
+
+Philip extends Billy implements SpeakWithAccent, CriminalTendencies;
+
+Billy personality1 = new Philip();
+
+Billy thinks he is Philip. But Billy has no access to what Philip does/can do;
+
+
+
+=======================================================
+Example of methods behaviour in Polymorphism:
+
+
+William Stanley Milligan :
+  (Billy)   PARENT CLASS
+hasIssue(){ hates his stepfather };
+
+April extends Billy(){
+	Override: hasIssue() { wants to kill his stepfather };
+}
+
+Billy billy = new Billy();
+Billy personality2 = new April();
+
+Billy thinks he is April, because of the childhood trauma he hates his father, but when he is April his hate becomes stronger => wants to kill him.
+
+Billy             and           April
+hates his sf       =>       hates his sf(wants to kill)
+
+So Billy JUST hates() but when Billy=April hates(upgraded);
+
+
+========================================================
+
+
+
+
+
