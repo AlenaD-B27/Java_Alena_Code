@@ -38,7 +38,7 @@ public class Fish {
 
     // to create the toString method we can generate it from InteliJ.
     // Mac: command + N
-    // Windows: ctrl + N
+    // Windows: alt + insert
 
 
     @Override
