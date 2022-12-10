@@ -1,3 +1,5 @@
+package what_is_the_output;
+
 public class Task {
     public static void main(String[] args) {
         int num = 0;

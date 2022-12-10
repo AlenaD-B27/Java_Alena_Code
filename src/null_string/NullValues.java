@@ -1,3 +1,5 @@
+package null_string;
+
 import java.sql.SQLOutput;
 
 public class NullValues {
